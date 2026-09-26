@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Hộ kinh doanh có doanh thu 450 triệu đồng một năm có phải nộp thuế GTGT không?",
+    "expected_answer": "Không. Theo corpus, hộ kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống thuộc đối tượng không chịu thuế GTGT.",
+    "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 3 khoản 1: doanh thu năm từ 500 triệu đồng trở xuống không chịu thuế GTGT."
+  },
+  {
+    "question": "Doanh thu 500 triệu đồng một năm có phải nộp thuế thu nhập cá nhân không?",
+    "expected_answer": "Không. Cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế TNCN theo corpus.",
+    "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 4 khoản 1: doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế TNCN."
+  },
+  {
+    "question": "Hộ kinh doanh doanh thu trên 500 triệu đồng tính thuế GTGT theo phương pháp nào?",
+    "expected_answer": "Thuộc đối tượng chịu thuế GTGT và áp dụng phương pháp tính trực tiếp trên doanh thu theo tỷ lệ phần trăm.",
+    "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 3 khoản 2: doanh thu trên 500 triệu đồng chịu thuế GTGT, tính trực tiếp theo doanh thu bằng tỷ lệ phần trăm."
+  },
+  {
+    "question": "Doanh thu nào được dùng để xác định thuế TNCN của hộ kinh doanh?",
+    "expected_answer": "Là toàn bộ tiền bán hàng, gia công và cung ứng dịch vụ cùng các khoản được hưởng; không phân biệt đã thu tiền hay chưa, trừ chiết khấu thương mại, giảm giá hàng bán và hàng bị trả lại.",
+    "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 5 khoản 1 về doanh thu để xác định thuế TNCN."
+  },
+  {
+    "question": "Khoản chi bao nhiêu trở lên cần chứng từ thanh toán không dùng tiền mặt để được trừ?",
+    "expected_answer": "Các khoản thanh toán từng lần từ 5 triệu đồng trở lên cần chứng từ thanh toán không dùng tiền mặt, cùng điều kiện có hóa đơn chứng từ hợp lệ.",
+    "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 6 khoản 1: khoản thanh toán từng lần từ 05 triệu đồng trở lên."
+  },
+  {
+    "question": "Hóa đơn điện tử có mã của cơ quan thuế là gì?",
+    "expected_answer": "Là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua.",
+    "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 1 định nghĩa hóa đơn điện tử có mã của cơ quan thuế."
+  },
+  {
+    "question": "Hóa đơn điện tử khởi tạo từ máy tính tiền là gì?",
+    "expected_answer": "Là hóa đơn hoặc dữ liệu điện tử do hệ thống tính tiền lập, cho phép người mua truy xuất thông tin và dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn.",
+    "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 3 về hóa đơn điện tử từ máy tính tiền."
+  },
+  {
+    "question": "Những trường hợp nào bị coi là sử dụng hóa đơn, chứng từ không hợp pháp?",
+    "expected_answer": "Bao gồm dùng hóa đơn giả, hóa đơn hết hoặc chưa có giá trị sử dụng, hóa đơn không đăng ký hoặc sử dụng không đúng quy định; corpus còn nêu các hành vi như tẩy xóa, lập khống và dùng hóa đơn của tổ chức cá nhân khác để hợp thức hóa.",
+    "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 7 về sử dụng hóa đơn, chứng từ không hợp pháp."
+  },
+  {
+    "question": "Hộ kinh doanh thuộc diện không chịu thuế GTGT và không phải nộp thuế TNCN dùng mẫu nào để thông báo doanh thu?",
+    "expected_answer": "Thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.",
+    "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm a: Mẫu số 01/TKN-CNKD."
+  },
+  {
+    "question": "Hồ sơ khai thuế của hộ kinh doanh nộp TNCN theo phương pháp thuế suất nhân doanh thu là gì?",
+    "expected_answer": "Hồ sơ gồm Tờ khai theo Mẫu số 01/CNKD cho thuế GTGT, thuế TNCN và các loại thuế khác.",
+    "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm b: Tờ khai Mẫu số 01/CNKD."
+  },
+  {
+    "question": "Hộ kinh doanh đang hoạt động thuộc diện nộp TNCN theo thuế suất trên doanh thu phải gửi thông báo tài khoản hoặc ví điện tử trước ngày nào?",
+    "expected_answer": "Theo corpus, gửi Mẫu số 01/BK-STK chậm nhất ngày 20 tháng 4 năm 2026.",
+    "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm d: Mẫu 01/BK-STK chậm nhất ngày 20/04/2026."
+  },
+  {
+    "question": "Muốn thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh thì dùng mẫu nào?",
+    "expected_answer": "Gửi thông báo tới cơ quan thuế quản lý trụ sở kinh doanh theo Mẫu số 01/TB-ĐĐKD.",
+    "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 3 khoản 1: Mẫu số 01/TB-ĐĐKD."
+  },
+  {
+    "question": "Hộ kinh doanh từng nộp thuế khoán năm 2025, doanh thu 500 triệu đồng trở xuống, thì năm 2026 cần làm gì?",
+    "expected_answer": "Theo điều khoản chuyển tiếp trong corpus, thực hiện thông báo doanh thu năm 2026 theo quy định về thông báo doanh thu, thay vì kê khai nộp thuế theo trường hợp doanh thu trên ngưỡng.",
+    "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 17 khoản 4 điểm b kết hợp Điều 8; doanh thu từ 500 triệu đồng trở xuống thông báo doanh thu năm 2026."
+  },
+  {
+    "question": "Cách nướng cá basa bằng nồi chiên không dầu?",
+    "expected_answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "expected_context": "Không có tài liệu về nấu ăn trong corpus thuế, quản lý thuế và hóa đơn điện tử."
+  },
+  {
+    "question": "Hồ sơ đăng ký thành lập hộ kinh doanh mới tại cơ quan đăng ký kinh doanh gồm những gì?",
+    "expected_answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "expected_context": "Corpus chỉ có chính sách thuế, quản lý thuế và hóa đơn điện tử; không có thủ tục đăng ký thành lập hộ kinh doanh."
+  }
+]

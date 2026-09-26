@@ -1,0 +1,844 @@
+{
+  "run_at_utc": "2026-09-26T09:56:05.560212+00:00",
+  "corpus_commit": "364e314",
+  "top_k": 5,
+  "score_threshold": 0.55,
+  "generator_model": "gpt-4o-mini",
+  "evaluator_model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-small",
+  "config_a_dense_only": {
+    "aggregates": {
+      "faithfulness": 0.72,
+      "answer_relevancy": 0.348,
+      "context_recall": 0.7,
+      "context_precision": 0.744,
+      "average": 0.628
+    },
+    "average_latency_seconds": 2.442,
+    "rows": [
+      {
+        "question": "Cách nướng cá basa bằng nồi chiên không dầu?",
+        "expected_answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "expected_context": "Không có tài liệu về nấu ăn trong corpus thuế, quản lý thuế và hóa đơn điện tử.",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "contexts": [
+          "thể lựa chọn một trong hai cách sử dụng hóa đơn, chứng từ như sau:",
+          "không hóa đơn, có được phép lập bảng kê mua hàng?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/3/12/img1913-1773309025142105269217-1773322358153-17733223586591720502165-0-0-967-1547-crop-177332288166065529676.jpg)](https://xaydungchinhsach.chinhphu.vn/ho-kinh-doanh-mua-hang-tu-ca-nhan-kinh-doanh-co-doanh-thu-duoi-500-trieu-dong-nam-khong-hoa-don-co-duoc-phep-lap-bang-ke-mua-hang-119260312204259799.htm)",
+          "* Tham khảo thêm\n#### [Giảm thuế nhập khẩu một số mặt hàng xăng dầu về 0% đến 30/6/2026](https://xaydungchinhsach.chinhphu.vn/giam-thue-nhap-khau-mot-so-mat-hang-xang-dau-ve-0-den-30-6-2026-119260430163854399.htm)",
+          "[![Giảm thuế nhập khẩu một số mặt hàng xăng dầu về 0% đến 30/6/2026](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/4/30/avatar1777541619251-17775416207591181969779.jpg)](https://xaydungchinhsach.chinhphu.vn/giam-thue-nhap-khau-mot-so-mat-hang-xang-dau-ve-0-den-30-6-2026-119260430163854399.htm)\n  * Tham khảo thêm",
+          "c.2) Mã ký hiệu ngoại tệ theo tiêu chuẩn quốc tế (ví dụ: 13.800,25 USD - Mười ba nghìn tám trăm đô la Mỹ và hai mươi nhăm xu, ví dụ: 5.000,50 EUR- Năm nghìn ơ-rô và năm mươi xu);\n\nc.3) Trường hợp bán hàng hóa phát sinh bằng ngoại tệ theo quy định của pháp luật về ngoại hối và được nộp thuế bằng ngoại tệ thì tổng số tiền thanh toán thể hiện trên hóa đơn theo ngoại tệ, không phải quy đổi ra đồng Việt Nam."
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-69",
+          "news/article_06.md::chunk-34",
+          "news/article_04.md::chunk-37",
+          "news/article_04.md::chunk-38",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-341"
+        ],
+        "latency_seconds": 1.268,
+        "metrics": {
+          "faithfulness": 0.0,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.0
+        }
+      },
+      {
+        "question": "Doanh thu 500 triệu đồng một năm có phải nộp thuế thu nhập cá nhân không?",
+        "expected_answer": "Không. Cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế TNCN theo corpus.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 4 khoản 1: doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế TNCN.",
+        "answer": "Nếu hộ kinh doanh, cá nhân kinh doanh có doanh thu thực tế trên 500 triệu đồng trong năm thì phải thực hiện khai thuế và nộp thuế thu nhập cá nhân. Do đó, doanh thu 500 triệu đồng một năm có thể phải nộp thuế thu nhập cá nhân nếu doanh thu thực tế vượt quá mức này [Document 1].",
+        "contexts": [
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;",
+          "Trường hợp hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng thì khai và nộp thuế giá trị gia tăng, cụ thể: Trường hợp có doanh thu năm từ 50 tỷ đồng trở xuống thì thực hiện khai thuế, nộp thuế giá trị gia tăng theo quý. Trường hợp có doanh thu năm trên 50 tỷ đồng, thực hiện khai thuế, nộp thuế giá trị gia tăng theo tháng. Khai thuế, nộp thuế thu nhập cá nhân: Hộ kinh doanh, cá nhân sẽ lựa chọn nộp thuế một trong hai phương pháp ở trên.",
+          "[![Hướng dẫn khai thuế, nộp thuế với hộ, cá nhân kinh doanh có doanh thu trên 500 triệu/ năm](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/3/9/khai-thue-1773041606294934149371-56-0-1306-2000-crop-1773041623261247280387.jpg)](https://xaydungchinhsach.chinhphu.vn/huong-dan-khai-thue-nop-thue-voi-ho-ca-nhan-kinh-doanh-co-doanh-thu-tren-500-trieu--nam-11926030914361859.htm)\n  * Tham khảo thêm",
+          ". Trường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng đang áp dụng phương pháp tính thuế thu nhập cá nhân theo thuế suất nhân (x) doanh thu tính thuế, nếu hết năm xác định doanh thu thực tế năm trên 03 tỷ đồng thì từ năm tiếp theo phải chuyển sang áp dụng phương pháp tính thuế thu nhập cá nhân theo thu nhập tính thuế nhân (x) thuế suất.",
+          "Điều 5. Doanh thu để xác định thuế thu nhập cá nhân"
+        ],
+        "source_ids": [
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43",
+          "news/article_07.md::chunk-26",
+          "news/article_07.md::chunk-44",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-23",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-24"
+        ],
+        "latency_seconds": 2.131,
+        "metrics": {
+          "faithfulness": 0.6666666666666666,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.9166666666361111
+        }
+      },
+      {
+        "question": "Doanh thu nào được dùng để xác định thuế TNCN của hộ kinh doanh?",
+        "expected_answer": "Là toàn bộ tiền bán hàng, gia công và cung ứng dịch vụ cùng các khoản được hưởng; không phân biệt đã thu tiền hay chưa, trừ chiết khấu thương mại, giảm giá hàng bán và hàng bị trả lại.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 5 khoản 1 về doanh thu để xác định thuế TNCN.",
+        "answer": "Doanh thu để xác định thuế TNCN của hộ kinh doanh là doanh thu phát sinh trong kỳ, cụ thể là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế, nếu hộ kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng và lựa chọn phương pháp thuế suất nhân với doanh thu tính thuế [Document 2].",
+        "contexts": [
+          "## Thuế suất thuế TNCN:\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 2.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b2-177553202117231854933.jpg)\nRiêng hộ kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng lựa chọn nộp thuế TNCN trên doanh thu thì căn cứ ngành nghề kinh doanh thuế suất thuế TNCN được xác định như sau:\n![Thuế suất đối với các hoạt động kinh doanh",
+          "□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế\n\n□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm\n\n[01] Kỳ tính thuế:\n\n\t[01a] Năm………",
+          "i) Phương pháp thuế suất nhân với doanh thu tính thuế: Áp dụng đối với hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng nếu lựa chọn phương pháp này. Như vậy, thuế TNCN phải nộp sẽ bằng doanh thu tính thuế (tức là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế) nhân với thuế suất thuế TNCN.",
+          "[![Doanh thu để xác định thuế thu nhập cá nhân của hộ kinh doanh là gì?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/4/7/doanhthu-17755301859781156456391-29-0-581-883-crop-17755301898831741509029.jpg)](https://xaydungchinhsach.chinhphu.vn/doanh-thu-de-xac-dinh-thue-thu-nhap-ca-nhan-cuaho-kinh-doanh-la-gi-11926040709525945.htm)\n  * Tham khảo thêm",
+          "STT\n\nChỉ tiêu\n\nMã chỉ tiêu\n\n\tSố tiền\n\nI\n\nKhai thuế thay cá nhân hợp tác kinh doanh\n\n[06]\n\n1\n\nTổng doanh thu phát sinh trong kỳ\n\n[07]\n\n2\n\nTổng số thuế TNCN phải nộp\n\n[08]\n\nII\n\nKhai thuế thay cá nhân cho thuê bất động sản \n\n[09]\n\n1\n\nTổng doanh thu phát sinh trong kỳ\n\n[10]\n\n2\n\nTổng số thuế GTGT phải nộp\n\n[11]\n\n3\n\nTổng số thuế TNCN phải nộp\n\n[12]\n\n(TNCN: Thu nhập cá nhân; GTGT: Giá trị gia tăng)"
+        ],
+        "source_ids": [
+          "news/article_06.md::chunk-13",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-53",
+          "news/article_07.md::chunk-19",
+          "news/article_06.md::chunk-17",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-102"
+        ],
+        "latency_seconds": 3.058,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.45087372241065177,
+          "context_recall": 1.0,
+          "context_precision": 0.7555555555303703
+        }
+      },
+      {
+        "question": "Hóa đơn điện tử có mã của cơ quan thuế là gì?",
+        "expected_answer": "Là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua.",
+        "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 1 định nghĩa hóa đơn điện tử có mã của cơ quan thuế.",
+        "answer": "Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua. Mã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dịch là một dãy số duy nhất do hệ thống của cơ quan thuế tạo ra và một chuỗi ký tự được cơ quan thuế mã hóa dựa trên thông tin của người bán lập trên hóa đơn điện tử [Document 1].",
+        "contexts": [
+          "1. Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua.\n\nMã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dịch là một dãy số duy nhất do hệ thống của cơ quan thuế tạo ra và một chuỗi ký tự được cơ quan thuế mã hóa dựa trên thông tin của người bán lập trên hóa đơn điện tử.",
+          "1. Lập hóa đơn điện tử có mã của cơ quan thuế\n\na) Tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng quy định tại Điều 6 Nghị định này truy cập Hệ thống thông tin quản lý thuế để thực hiện: lập hóa đơn bán hàng hóa, cung cấp dịch vụ; ký số trên các hóa đơn đã lập và gửi hóa đơn để cơ quan thuế cấp mã;",
+          "3. Hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu điện tử với cơ quan thuế (sau đây gọi là hóa đơn điện tử từ máy tính tiền) là hóa đơn điện tử có mã của cơ quan thuế hoặc hoá đơn điện tử không có mã của cơ quan thuế hoặc dữ liệu điện tử để người mua có thể truy xuất, kê khai thông tin hóa đơn điện tử khởi tạo từ máy tính tiền do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập từ hệ thống tính tiền, dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn dữ liệu.",
+          "2. Hóa đơn điện tử không có mã của cơ quan thuế là hóa đơn điện tử do tổ chức bán hàng hóa, cung cấp dịch vụ gửi cho người mua không có mã của cơ quan thuế.",
+          "Điều 15. Trách nhiệm của người bán hàng hóa, cung cấp dịch vụ sử dụng hóa đơn điện tử có mã của cơ quan thuế\n\n1. Quản lý tên và mật khẩu của các tài khoản đã được cơ quan thuế cấp.\n\n2. Tạo lập hóa đơn điện tử để gửi đến cơ quan thuế cấp mã và chịu trách nhiệm trước pháp luật về tính hợp pháp, chính xác của hóa đơn điện tử."
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-11",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-165",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-13",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-12",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-178"
+        ],
+        "latency_seconds": 2.013,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.45387413032347773,
+          "context_recall": 1.0,
+          "context_precision": 0.94999999997625
+        }
+      },
+      {
+        "question": "Hóa đơn điện tử khởi tạo từ máy tính tiền là gì?",
+        "expected_answer": "Là hóa đơn hoặc dữ liệu điện tử do hệ thống tính tiền lập, cho phép người mua truy xuất thông tin và dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn.",
+        "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 3 về hóa đơn điện tử từ máy tính tiền.",
+        "answer": "Hóa đơn điện tử khởi tạo từ máy tính tiền là hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử không có mã của cơ quan thuế, được khởi tạo từ hệ thống tính tiền. Dữ liệu của hóa đơn này được chuyển đến cơ quan thuế theo định dạng chuẩn dữ liệu, cho phép người mua có thể truy xuất và kê khai thông tin hóa đơn [Document 1].",
+        "contexts": [
+          "3. Hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu điện tử với cơ quan thuế (sau đây gọi là hóa đơn điện tử từ máy tính tiền) là hóa đơn điện tử có mã của cơ quan thuế hoặc hoá đơn điện tử không có mã của cơ quan thuế hoặc dữ liệu điện tử để người mua có thể truy xuất, kê khai thông tin hóa đơn điện tử khởi tạo từ máy tính tiền do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập từ hệ thống tính tiền, dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn dữ liệu.",
+          "nhân khác theo quy định về Hệ thống ngành kinh tế Việt Nam) sử dụng hóa đơn điện tử từ máy tính tiền",
+          "4. Máy tính tiền là hệ thống tính tiền bao gồm một thiết bị điện tử đồng bộ hoặc một hệ thống gồm nhiều thiết bị điện tử được kết hợp với nhau bằng giải pháp công nghệ thông tin có chức năng chung như: tính tiền, lưu trữ các giao dịch bán hàng, số liệu bán hàng.\n\n5. Hóa đơn, chứng từ hợp pháp là hóa đơn, chứng từ đảm bảo đúng về hình thức và nội dung theo quy định tại Nghị định này.",
+          "\"cá nhân kinh doanh\") [nâng ngưỡng doanh thu](https://xaydungchinhsach.chinhphu.vn/nang-nguong-doanh-thu.html \"nâng ngưỡng doanh thu\") [hóa đơn](https://xaydungchinhsach.chinhphu.vn/hoa-don.html \"hóa đơn\") [hóa đơn điện tử](https://xaydungchinhsach.chinhphu.vn/hoa-don-dien-tu.html \"hóa đơn điện tử\") [hóa đơn điện tử khởi tạo từ máy tính tiền](https://xaydungchinhsach.chinhphu.vn/hoa-don-dien-tu-khoi-tao-tu-may-tinh-tien.html \"hóa đơn điện tử khởi tạo từ máy tính tiền\") [thuế thu nhập doanh",
+          "[![Hướng dẫn nội dung phải có khi lập hóa đơn điện tử](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/7/16/hoa-don-dien-tu-1784172239377399117530-0-0-343-548-crop-1784172244037679016836.jpg)](https://xaydungchinhsach.chinhphu.vn/huong-dan-noi-dung-phai-co-khi-lap-hoa-don-dien-tu-119260716103037061.htm)\n  * Tham khảo thêm"
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-13",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-50",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-14",
+          "news/article_03.md::chunk-69",
+          "news/article_09.md::chunk-43"
+        ],
+        "latency_seconds": 6.406,
+        "metrics": {
+          "faithfulness": 0.8,
+          "answer_relevancy": 0.3723773268752476,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        }
+      },
+      {
+        "question": "Hồ sơ khai thuế của hộ kinh doanh nộp TNCN theo phương pháp thuế suất nhân doanh thu là gì?",
+        "expected_answer": "Hồ sơ gồm Tờ khai theo Mẫu số 01/CNKD cho thuế GTGT, thuế TNCN và các loại thuế khác.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm b: Tờ khai Mẫu số 01/CNKD.",
+        "answer": "Hồ sơ khai thuế của hộ kinh doanh nộp thuế thu nhập cá nhân (TNCN) theo phương pháp thuế suất nhân với doanh thu tính thuế là Tờ khai theo Mẫu số 01/CNKD ban hành kèm theo Thông tư này [Document 4].",
+        "contexts": [
+          "i) Phương pháp thuế suất nhân với doanh thu tính thuế: Áp dụng đối với hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng nếu lựa chọn phương pháp này. Như vậy, thuế TNCN phải nộp sẽ bằng doanh thu tính thuế (tức là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế) nhân với thuế suất thuế TNCN.",
+          "## Thuế suất thuế TNCN:\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 2.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b2-177553202117231854933.jpg)\nRiêng hộ kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng lựa chọn nộp thuế TNCN trên doanh thu thì căn cứ ngành nghề kinh doanh thuế suất thuế TNCN được xác định như sau:\n![Thuế suất đối với các hoạt động kinh doanh",
+          "Trường hợp HKD, CNKD thuộc đối tượng nộp thuế TNCN theo phương pháp thu nhập tính thuế nhân (x) thuế suất thì việc khai, nộp thuế GTGT và các loại thuế khác theo tháng, tạm nộp thuế TNCN theo tháng (nếu doanh thu năm trên 50 tỷ đồng), khai, nộp thuế GTGT và các loại thuế khác, tạm nộp thuế TNCN quý (nếu doanh thu năm từ 50 tỷ đồng trở xuống).",
+          "b) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD ban hành kèm theo Thông tư này.  \n\nc) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất",
+          "Điều 5. Hồ sơ đề nghị hoàn thuế nộp thừa\n\n1. Hồ sơ đề nghị hoàn thuế nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế là Tờ khai thuế theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này."
+        ],
+        "source_ids": [
+          "news/article_07.md::chunk-19",
+          "news/article_06.md::chunk-13",
+          "news/article_02.md::chunk-19",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-7",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-16"
+        ],
+        "latency_seconds": 2.565,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.4337505078811481,
+          "context_recall": 1.0,
+          "context_precision": 0.4777777777618519
+        }
+      },
+      {
+        "question": "Hồ sơ đăng ký thành lập hộ kinh doanh mới tại cơ quan đăng ký kinh doanh gồm những gì?",
+        "expected_answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "expected_context": "Corpus chỉ có chính sách thuế, quản lý thuế và hóa đơn điện tử; không có thủ tục đăng ký thành lập hộ kinh doanh.",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "contexts": [
+          "* Tham khảo thêm\n#### [Có bắt buộc lập tài khoản hộ kinh doanh không?](https://xaydungchinhsach.chinhphu.vn/co-bat-buoc-lap-tai-khoan-ho-kinh-doanh-khong-119260406094853695.htm)\n[![Có bắt buộc lập tài khoản hộ kinh doanh không?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/4/6/tai-khoan-ho-kinh-donh-17754435668102032612058-0-0-446-714-crop-17754435739681883384258.jpg)](https://xaydungchinhsach.chinhphu.vn/co-bat-buoc-lap-tai-khoan-ho-kinh-doanh-khong-119260406094853695.htm)",
+          "Mẫu số: 01/TB-ĐĐKD\n\n(Kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính)\n\n                                                  \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do Hạnh phúc\n\nTHÔNG BÁO\n\nVề việc thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động \n\nđối với địa điểm kinh doanh\n\nKính gửi: (Cơ quan thuế quản lý trực tiếp NNT)……………\n\n\t1. Người nộp thuế: \t\n\n\t2. Mã số thuế:\t\n\n\t\t3. Thông tin đại lý thuế (nếu có): \n\n\t\t3a. Tên:\t\n\n\t\t3b. Mã số thuế:",
+          "nghiệp và phù hợp với đăng ký kinh doanh, đăng ký thuế của doanh nghiệp;",
+          "Điều 3. Thông báo địa điểm kinh doanh\n\n1. Hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư này.\n\n2. Cơ quan thuế gửi thông báo cho người nộp thuế biết theo Mẫu số 02/TB-ĐĐKD ban hành kèm theo Thông tư này.",
+          "Điều 4. Hồ sơ thông báo doanh thu, kê khai thuế \n\n1. Hồ sơ thông báo doanh thu, kê khai thuế đối với hộ kinh doanh, cá nhân kinh doanh\n\na) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này."
+        ],
+        "source_ids": [
+          "news/article_06.md::chunk-18",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-34",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-306",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-5",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-6"
+        ],
+        "latency_seconds": 0.985,
+        "metrics": {
+          "faithfulness": 0.0,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.0
+        }
+      },
+      {
+        "question": "Hộ kinh doanh có doanh thu 450 triệu đồng một năm có phải nộp thuế GTGT không?",
+        "expected_answer": "Không. Theo corpus, hộ kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống thuộc đối tượng không chịu thuế GTGT.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 3 khoản 1: doanh thu năm từ 500 triệu đồng trở xuống không chịu thuế GTGT.",
+        "answer": "Hộ kinh doanh có doanh thu 450 triệu đồng một năm không phải nộp thuế GTGT, vì doanh thu năm của họ dưới 500 triệu đồng. Theo quy định, đối với hộ kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống thì chỉ thực hiện thông báo doanh thu mà không thực hiện khai số thuế GTGT phải nộp [Document 2].",
+        "contexts": [
+          "Tỷ lệ tính thuế giá trị gia tăng (GTGT): Đối với hộ kinh doanh có doanh thu trên 500 triệu đồng/năm, thuế GTGT được tính theo tỷ lệ % trên doanh thu. Căn cứ vào ngành nghề kinh doanh tỷ lệ % tính thuế GTGT được xác định như sau:\nThuế suất thuế thu nhập cá nhân (TNCN):\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 1.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b1-17755320211691394045548.jpg)\n## Thuế suất thuế TNCN:",
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;",
+          "(Ký, ghi rõ họ tên/ Ký điện tử)\n\nGhi chú:\n\n- Đối với trường hợp hộ kinh doanh, cá nhân kinh doanh thông báo doanh thu năm từ 500 triệu đồng trở xuống thì chỉ thực hiện thông báo doanh thu; không thực hiện khai số thuế GTGT, thuế TNCN phải nộp.\n\n- Chỉ tiêu [3.1], [3.2]…tại khoản III, mục C: bao gồm khoáng sản và đất đá bóc, đất đá thải (nếu có).",
+          "Trường hợp hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng thì khai và nộp thuế giá trị gia tăng, cụ thể: Trường hợp có doanh thu năm từ 50 tỷ đồng trở xuống thì thực hiện khai thuế, nộp thuế giá trị gia tăng theo quý. Trường hợp có doanh thu năm trên 50 tỷ đồng, thực hiện khai thuế, nộp thuế giá trị gia tăng theo tháng. Khai thuế, nộp thuế thu nhập cá nhân: Hộ kinh doanh, cá nhân sẽ lựa chọn nộp thuế một trong hai phương pháp ở trên.",
+          "Thuế giá trị gia tăng (GTGT): Được tính theo phương pháp trực tiếp trên doanh thu. Cụ thể, thuế GTGT phải nộp sẽ bằng doanh thu nhân với tỉ lệ phần trăm về thuế GTGT. Thuế thu nhập cá nhân (TNCN): Hộ, cá nhân kinh doanh được xác định theo một trong hai phương pháp sau:"
+        ],
+        "source_ids": [
+          "news/article_06.md::chunk-12",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-67",
+          "news/article_07.md::chunk-26",
+          "news/article_07.md::chunk-18"
+        ],
+        "latency_seconds": 2.787,
+        "metrics": {
+          "faithfulness": 0.75,
+          "answer_relevancy": 0.5918139586845936,
+          "context_recall": 0.5,
+          "context_precision": 0.99999999998
+        }
+      },
+      {
+        "question": "Hộ kinh doanh doanh thu trên 500 triệu đồng tính thuế GTGT theo phương pháp nào?",
+        "expected_answer": "Thuộc đối tượng chịu thuế GTGT và áp dụng phương pháp tính trực tiếp trên doanh thu theo tỷ lệ phần trăm.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 3 khoản 2: doanh thu trên 500 triệu đồng chịu thuế GTGT, tính trực tiếp theo doanh thu bằng tỷ lệ phần trăm.",
+        "answer": "Hộ kinh doanh có doanh thu trên 500 triệu đồng sẽ tính thuế giá trị gia tăng (GTGT) theo phương pháp trực tiếp trên doanh thu, tức là thuế GTGT phải nộp sẽ bằng doanh thu nhân với tỷ lệ phần trăm về thuế GTGT [Document 2].",
+        "contexts": [
+          "Tỷ lệ tính thuế giá trị gia tăng (GTGT): Đối với hộ kinh doanh có doanh thu trên 500 triệu đồng/năm, thuế GTGT được tính theo tỷ lệ % trên doanh thu. Căn cứ vào ngành nghề kinh doanh tỷ lệ % tính thuế GTGT được xác định như sau:\nThuế suất thuế thu nhập cá nhân (TNCN):\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 1.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b1-17755320211691394045548.jpg)\n## Thuế suất thuế TNCN:",
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;",
+          "Thuế giá trị gia tăng (GTGT): Được tính theo phương pháp trực tiếp trên doanh thu. Cụ thể, thuế GTGT phải nộp sẽ bằng doanh thu nhân với tỉ lệ phần trăm về thuế GTGT. Thuế thu nhập cá nhân (TNCN): Hộ, cá nhân kinh doanh được xác định theo một trong hai phương pháp sau:",
+          "Trường hợp hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng thì khai và nộp thuế giá trị gia tăng, cụ thể: Trường hợp có doanh thu năm từ 50 tỷ đồng trở xuống thì thực hiện khai thuế, nộp thuế giá trị gia tăng theo quý. Trường hợp có doanh thu năm trên 50 tỷ đồng, thực hiện khai thuế, nộp thuế giá trị gia tăng theo tháng. Khai thuế, nộp thuế thu nhập cá nhân: Hộ kinh doanh, cá nhân sẽ lựa chọn nộp thuế một trong hai phương pháp ở trên.",
+          ". Trường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng đang áp dụng phương pháp tính thuế thu nhập cá nhân theo thuế suất nhân (x) doanh thu tính thuế, nếu hết năm xác định doanh thu thực tế năm trên 03 tỷ đồng thì từ năm tiếp theo phải chuyển sang áp dụng phương pháp tính thuế thu nhập cá nhân theo thu nhập tính thuế nhân (x) thuế suất."
+        ],
+        "source_ids": [
+          "news/article_06.md::chunk-12",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43",
+          "news/article_07.md::chunk-18",
+          "news/article_07.md::chunk-26",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-23"
+        ],
+        "latency_seconds": 1.997,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.5774277153506107,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        }
+      },
+      {
+        "question": "Hộ kinh doanh thuộc diện không chịu thuế GTGT và không phải nộp thuế TNCN dùng mẫu nào để thông báo doanh thu?",
+        "expected_answer": "Thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm a: Mẫu số 01/TKN-CNKD.",
+        "answer": "Hộ kinh doanh thuộc diện không chịu thuế GTGT và không phải nộp thuế TNCN sử dụng Mẫu số 01/TKN-CNKD để thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác [Document 2].",
+        "contexts": [
+          "(Ký, ghi rõ họ tên/ Ký điện tử)\n\nGhi chú:\n\n- Đối với trường hợp hộ kinh doanh, cá nhân kinh doanh thông báo doanh thu năm từ 500 triệu đồng trở xuống thì chỉ thực hiện thông báo doanh thu; không thực hiện khai số thuế GTGT, thuế TNCN phải nộp.\n\n- Chỉ tiêu [3.1], [3.2]…tại khoản III, mục C: bao gồm khoáng sản và đất đá bóc, đất đá thải (nếu có).",
+          "□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên doanh thu tính thuế \n\n□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên thu nhập tính thuế \n\n□ Hộ kinh doanh, cá nhân kinh doanh chỉ có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác không có chức năng đặt hàng trực tuyến và chức năng thanh toán\n\n□ Hộ kinh doanh, cá nhân kinh doanh khai các loại thuế khác (thuế TTĐB, thuế tài nguyên, thuế/phí bảo vệ môi trường)",
+          "Điều 4. Hồ sơ thông báo doanh thu, kê khai thuế \n\n1. Hồ sơ thông báo doanh thu, kê khai thuế đối với hộ kinh doanh, cá nhân kinh doanh\n\na) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này.",
+          "Tỷ lệ tính thuế giá trị gia tăng (GTGT): Đối với hộ kinh doanh có doanh thu trên 500 triệu đồng/năm, thuế GTGT được tính theo tỷ lệ % trên doanh thu. Căn cứ vào ngành nghề kinh doanh tỷ lệ % tính thuế GTGT được xác định như sau:\nThuế suất thuế thu nhập cá nhân (TNCN):\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 1.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b1-17755320211691394045548.jpg)\n## Thuế suất thuế TNCN:",
+          "Trường hợp HKD, CNKD thuộc đối tượng nộp thuế TNCN theo phương pháp thu nhập tính thuế nhân (x) thuế suất thì việc khai, nộp thuế GTGT và các loại thuế khác theo tháng, tạm nộp thuế TNCN theo tháng (nếu doanh thu năm trên 50 tỷ đồng), khai, nộp thuế GTGT và các loại thuế khác, tạm nộp thuế TNCN quý (nếu doanh thu năm từ 50 tỷ đồng trở xuống)."
+        ],
+        "source_ids": [
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-67",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-69",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-6",
+          "news/article_06.md::chunk-12",
+          "news/article_02.md::chunk-19"
+        ],
+        "latency_seconds": 1.321,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.4682563175633955,
+          "context_recall": 1.0,
+          "context_precision": 0.7555555555303703
+        }
+      },
+      {
+        "question": "Hộ kinh doanh từng nộp thuế khoán năm 2025, doanh thu 500 triệu đồng trở xuống, thì năm 2026 cần làm gì?",
+        "expected_answer": "Theo điều khoản chuyển tiếp trong corpus, thực hiện thông báo doanh thu năm 2026 theo quy định về thông báo doanh thu, thay vì kê khai nộp thuế theo trường hợp doanh thu trên ngưỡng.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 17 khoản 4 điểm b kết hợp Điều 8; doanh thu từ 500 triệu đồng trở xuống thông báo doanh thu năm 2026.",
+        "answer": "Hộ kinh doanh từng nộp thuế khoán năm 2025 và có doanh thu 500 triệu đồng trở xuống cần thực hiện thông báo doanh thu của năm 2026 theo quy định tại điểm a khoản 1 Điều 8 Nghị định này [Document 1].",
+        "contexts": [
+          "a) Hộ kinh doanh, cá nhân kinh doanh đã thực hiện nộp thuế theo phương pháp khoán hoặc phương pháp kê khai trong năm 2025 có mức doanh thu trên 500 triệu đồng thực hiện kê khai, nộp thuế của năm 2026 theo quy định tại Điều 10 Nghị định này;\n\nb) Hộ kinh doanh, cá nhân kinh doanh đã nộp thuế theo phương pháp khoán hoặc phương pháp kê khai trong năm 2025, có doanh thu từ 500 triệu đồng trở xuống thực hiện thông báo doanh thu của năm 2026 theo quy định tại điểm a khoản 1 Điều 8 Nghị định này.",
+          ". Đối với hộ kinh doanh, cá nhân kinh doanh trong năm 2025 nộp thuế theo phương pháp khoán hoặc phương pháp kê khai, có mức doanh thu từ 03 tỷ đồng trở lên hoặc từ năm 2026 lựa chọn nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) thuế suất thì hộ kinh doanh, cá nhân kinh doanh thực hiện xác định, ghi nhận giá trị hàng tồn kho, máy móc, thiết bị đang phục vụ hoạt động sản xuất, kinh doanh tại thời điểm ngày 31 tháng 12 năm 2025 để làm căn cứ xác định chi phí được trừ khi",
+          ". Đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán từ năm 2025 trở về trước và đã được xác định mức thuế khoán (bao gồm cả trường hợp hộ kinh doanh, cá nhân kinh doanh có thay đổi về quy mô sản xuất kinh doanh dẫn đến doanh thu khoán thuế thay đổi từ 50% trở lên) theo quy định của Luật Quản lý thuế số 38/2019/QH14 và các văn bản hướng dẫn thi hành, khi chuyển sang thực hiện kê khai thuế kể từ ngày 01 tháng 01 năm 2026, cơ quan thuế không sử dụng doanh thu khai thuế năm",
+          "Đối với hộ, cá nhân kinh doanh nộp thuế theo phương pháp khoán từ 2025 trở về trước đã xác định doanh thu, mức thuế khoán, bao gồm cả trường hợp hộ, cá nhân có thay đổi quy mô mà theo Thông tư 40 nói rõ là thay đổi 50% theo quy định của Luật Quản lý thuế số 38, nếu chuyển sang thực hiện khai thuế từ mùng 1/1/2026 thì cơ quan thuế không sử dụng doanh thu khai thuế năm 2026 để xác định lại nghĩa vụ thuế của các năm trước.",
+          "3. Từ năm tiếp theo, hộ kinh doanh, cá nhân kinh doanh nếu có doanh thu thực tế phát sinh từ 500 triệu đồng trở xuống thực hiện thông báo doanh thu theo quy định tại Điều 8 Nghị định này; trường hợp có doanh thu thực tế phát sinh trên 500 triệu đồng thì thực hiện khai thuế theo quy định tại Điều 10 Nghị định này.\n\nĐiều 10. Khai thuế, nộp thuế giá trị gia tăng, thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng"
+        ],
+        "source_ids": [
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-127",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-143",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-129",
+          "news/article_07.md::chunk-33",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-78"
+        ],
+        "latency_seconds": 2.252,
+        "metrics": {
+          "faithfulness": 0.25,
+          "answer_relevancy": 0.5999822296338667,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        }
+      },
+      {
+        "question": "Hộ kinh doanh đang hoạt động thuộc diện nộp TNCN theo thuế suất trên doanh thu phải gửi thông báo tài khoản hoặc ví điện tử trước ngày nào?",
+        "expected_answer": "Theo corpus, gửi Mẫu số 01/BK-STK chậm nhất ngày 20 tháng 4 năm 2026.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm d: Mẫu 01/BK-STK chậm nhất ngày 20/04/2026.",
+        "answer": "Hộ kinh doanh đang hoạt động thuộc diện nộp TNCN theo thuế suất trên doanh thu phải gửi thông báo tài khoản hoặc ví điện tử kèm theo Tờ khai thuế đầu tiên của năm 2026. Tuy nhiên, thông tin cụ thể về thời hạn gửi thông báo này không được cung cấp trong các tài liệu hiện có. Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "contexts": [
+          "Số thuế TNCN tạm nộp bằng thuế suất nhân (x) doanh thu tính thuế của tháng, quý và khai quyết toán thuế TNCN theo năm, thời hạn nộp chậm nhất là ngày 31/3 của năm dương lịch tiếp theo.\n## **Tăng cường ứng dụng hóa đơn điện tử**\nNghị định 68/2026/NĐ-CP cũng quy định rõ về việc sử dụng hóa đơn điện tử. Theo đó, HKD, CNKD có doanh thu tính thuế giá trị gia tăng hằng năm từ 01 tỷ đồng trở lên phải áp dụng hóa đơn điện tử.",
+          "Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.\n\nHộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.",
+          "Hộ kinh doanh, cá nhân kinh doanh khi thay đổi thông tin số tài khoản/số hiệu ví điện tử thì thông báo cho cơ quan thuế theo quy định của pháp luật quản lý thuế. \n\n2. Hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân đối với trường hợp tổ chức, cá nhân khấu trừ khai thuế thay, nộp thuế thay",
+          "Căn cứ <thông báo thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động đối với địa điểm kinh doanh> của <Tên người nộp thuế, mã số thuế> gửi đến cơ quan thuế lúc … giờ … phút ngày … tháng ... năm ...\n\nCơ quan thuế thông báo kết quả cập nhật thông tin <thành lập/thay đổi thông tin/tạm ngừng/khôi phục tạm ngừng kinh doanh trước thời hạn/chấm dứt hoạt động đối với địa điểm kinh doanh> của người nộp thuế như sau:\n\n- Ngày cơ quan thuế tiếp nhận hồ sơ: ngày … tháng ... năm ...",
+          "□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế\n\n□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm\n\n[01] Kỳ tính thuế:\n\n\t[01a] Năm………"
+        ],
+        "source_ids": [
+          "news/article_02.md::chunk-20",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-10",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-11",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-42",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-53"
+        ],
+        "latency_seconds": 1.848,
+        "metrics": {
+          "faithfulness": 0.3333333333333333,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.49999999995
+        }
+      },
+      {
+        "question": "Khoản chi bao nhiêu trở lên cần chứng từ thanh toán không dùng tiền mặt để được trừ?",
+        "expected_answer": "Các khoản thanh toán từng lần từ 5 triệu đồng trở lên cần chứng từ thanh toán không dùng tiền mặt, cùng điều kiện có hóa đơn chứng từ hợp lệ.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 6 khoản 1: khoản thanh toán từng lần từ 05 triệu đồng trở lên.",
+        "answer": "Khoản chi từ 05 triệu đồng trở lên cần chứng từ thanh toán không dùng tiền mặt để được trừ [Document 1].",
+        "contexts": [
+          "1. Các khoản chi được trừ là các khoản chi phí thực tế phát sinh liên quan đến hoạt động sản xuất, kinh doanh, có đủ hóa đơn, chứng từ theo quy định của pháp luật về hóa đơn, chứng từ, pháp luật về kế toán và chứng từ thanh toán không dùng tiền mặt đối với các khoản thanh toán từng lần có giá trị từ 05 triệu đồng trở lên theo pháp luật về thuế giá trị gia tăng, cụ thể như sau: \n\na) Chi phí nguyên liệu, vật liệu, nhiên liệu, năng lượng, hàng hóa sử dụng vào sản xuất, kinh doanh;",
+          "[09a]\n\n1.2\n\nDoanh thu từ hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số đã được khấu trừ, nộp thay\n\n[09b]\n\n1.3\n\nDoanh thu từ hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số không có chức năng thanh toán trực tiếp \n\n[09c]\n\n2\n\nCác khoản chi được trừ [10]= [10a]+ [10b]+ [10c]+ [10d]+ [10đ]+ [10e]\n\n[10]\n\n2.1\n\nChi phí nguyên liệu, vật liệu, nhiên liệu, năng lượng, hàng hóa sử dụng vào sản xuất, kinh doanh.\n\n[10a]\n\n2.2",
+          "[ ![Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân. \\(Ảnh: Vietnam+\\)](https://www.vietnamplus.vn/bo-ap-dung-thue-khoan-ho-kinh-doanh-buoc-vao-cuoc-choi-moi-post1042297.vnp) ](https://www.vietnamplus.vn/hon-122-trieu-ty-dong-dang-nam-trong-tai-khoan-thanh-toan-ca-nhan-post1137973.vnp \"Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân \")",
+          "##  [ Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân ](https://www.vietnamplus.vn/hon-122-trieu-ty-dong-dang-nam-trong-tai-khoan-thanh-toan-ca-nhan-post1137973.vnp \"Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân \")\n23/09/2026 16:27\nTiền gửi thanh toán cá nhân đạt hơn 1,22 triệu tỷ đồng vào cuối quý 2/2026, tăng số tài khoản nhưng thấp hơn năm trước, phản ánh xu hướng thanh khoản ổn định.",
+          "Thông tin người nộp thuế đề nghị bù trừ khoản nộp thừa với khoản nợ, khoản thu phát sinh hoặc đề nghị hoàn kiêm bù trừ thu ngân sách nhà nước:\n\nSTT\n\nThông tin khoản nợ/khoản thu phát sinh\n\nSố tiền còn phải nộp đề nghị bù trừ với số tiền nộp thừa\n\nSố tiền còn phải nộp sau bù trừ\n\nMã số thuế\n\nTên NNT\n\nSố định danh khoản phải nộp (ID)\n(nếu có)\n\nNội dung khoản nợ/phát sinh\n\nChương\n\nTiểu mục\n\nCơ quan thu\n\nĐịa bàn hành chính\n\nHạn nộp\n\nSố tiền còn phải nộp\n\n[44]\n\n[45]\n\n[46]\n\n[47]\n\n[48]\n\n[49]\n\n[50]"
+        ],
+        "source_ids": [
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-33",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-89",
+          "news/article_01.md::chunk-57",
+          "news/article_01.md::chunk-58",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-65"
+        ],
+        "latency_seconds": 2.396,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.3646633816983417,
+          "context_recall": 1.0,
+          "context_precision": 0.9999999999
+        }
+      },
+      {
+        "question": "Muốn thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh thì dùng mẫu nào?",
+        "expected_answer": "Gửi thông báo tới cơ quan thuế quản lý trụ sở kinh doanh theo Mẫu số 01/TB-ĐĐKD.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 3 khoản 1: Mẫu số 01/TB-ĐĐKD.",
+        "answer": "Để thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh, bạn cần sử dụng Mẫu số: 01/TB-ĐĐKD [Document 2].",
+        "contexts": [
+          "3a. Tên:\t\n\n\t\t3b. Mã số thuế: \t\n\nThông báo về việc thành lập/thay đổi thông tin/tạm ngừng/khôi phục tạm ngừng kinh doanh trước thời hạn/chấm dứt hoạt động địa điểm kinh doanh như sau:\n\n□ Thành lập địa điểm kinh doanh       \n\n□ Thay đổi thông tin\n\n□ Tạm ngừng kinh doanh\n\n□ Khôi phục tạm ngừng kinh doanh trước thời hạn đã thông báo\n\n□ Chấm dứt hoạt động\n\n<1. Thành lập địa điểm kinh doanh>\n\nTên địa điểm kinh doanh\n\nHình thức kinh doanh thương mại điện tử \n\nNgày bắt đầu hoạt động",
+          "Điều 3. Thông báo địa điểm kinh doanh\n\n1. Hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư này.\n\n2. Cơ quan thuế gửi thông báo cho người nộp thuế biết theo Mẫu số 02/TB-ĐĐKD ban hành kèm theo Thông tư này.",
+          "STT\n\nKý hiệu\n\nNội dung\n\n1\n\nMẫu số: 01/TB-ĐĐKD\n\nThông báo về việc thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động đối với địa điểm kinh doanh\n\n2\n\nMẫu số: 02/TB-ĐĐKD\n\nThông báo về việc cập nhật thông tin <thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động> đối với địa điểm kinh doanh\n\n3\n\nMẫu số: 01/TKN-CNKD\n\nThông báo doanh thu/Tờ khai thuế năm \n\n4\n\nMẫu số: 01/CNKD\n\nTờ khai thuế đối với hộ kinh doanh, cá nhân kinh doanh\n\n5\n\nMẫu số: 02/CNKD-TNCN-QTT",
+          "Mẫu số: 01/TB-ĐĐKD\n\n(Kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính)\n\n                                                  \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do Hạnh phúc\n\nTHÔNG BÁO\n\nVề việc thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động \n\nđối với địa điểm kinh doanh\n\nKính gửi: (Cơ quan thuế quản lý trực tiếp NNT)……………\n\n\t1. Người nộp thuế: \t\n\n\t2. Mã số thuế:\t\n\n\t\t3. Thông tin đại lý thuế (nếu có): \n\n\t\t3a. Tên:\t\n\n\t\t3b. Mã số thuế:",
+          "Tỉnh/ thành phố\n\nMã định danh địa điểm (nếu có)\n\nMã trang trại (nếu có đối với trường hợp hoạt động theo mô hình kinh tế trang trại)\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n...\n\n<3. Tạm ngừng kinh doanh>\n\nMã địa điểm kinh doanh\n\nTên địa điểm kinh doanh\n\nThông tin tạm ngừng kinh doanh\n\nTừ ngày tháng năm\n\nĐến ngày tháng năm\n\nLý do tạm ngừng\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n...\n\n<4. Khôi phục tạm ngừng kinh doanh trước thời hạn đã thông báo>\n\nMã Địa điểm kinh doanh\n\nTên địa điểm kinh doanh"
+        ],
+        "source_ids": [
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-35",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-5",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-31",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-34",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-45"
+        ],
+        "latency_seconds": 1.429,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.5385890578411817,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        }
+      },
+      {
+        "question": "Những trường hợp nào bị coi là sử dụng hóa đơn, chứng từ không hợp pháp?",
+        "expected_answer": "Bao gồm dùng hóa đơn giả, hóa đơn hết hoặc chưa có giá trị sử dụng, hóa đơn không đăng ký hoặc sử dụng không đúng quy định; corpus còn nêu các hành vi như tẩy xóa, lập khống và dùng hóa đơn của tổ chức cá nhân khác để hợp thức hóa.",
+        "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 7 về sử dụng hóa đơn, chứng từ không hợp pháp.",
+        "answer": "Những trường hợp bị coi là sử dụng hóa đơn, chứng từ không hợp pháp bao gồm:\n\n1. Sử dụng hóa đơn, chứng từ tẩy xóa, sửa chữa không đúng quy định.\n2. Sử dụng hóa đơn, chứng từ khống (hóa đơn, chứng từ đã ghi các chỉ tiêu, nội dung nghiệp vụ kinh tế nhưng việc mua bán hàng hóa, dịch vụ không có thật một phần hoặc toàn bộ).\n3. Sử dụng hóa đơn phản ánh không đúng giá trị thực tế phát sinh hoặc lập hóa đơn khống, lập hóa đơn giả.\n4. Sử dụng hóa đơn có sự chênh lệch về giá trị hàng hóa, dịch vụ hoặc sai lệch các tiêu thức bắt buộc giữa các đơn.\n5. Sử dụng hóa đơn, chứng từ mà cơ quan thuế hoặc cơ quan công an hoặc các cơ quan chức năng khác đã kết luận là sử dụng không hợp pháp hóa đơn, chứng từ.\n6. Sử dụng hóa đơn, chứng từ giả; hóa đơn, chứng từ chưa có giá trị sử dụng, hết giá trị sử dụng; hóa đơn bị ngừng sử dụng trong thời gian bị cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn, trừ trường hợp được phép sử dụng theo thông báo của cơ quan thuế.\n7. Sử dụng hóa đơn điện tử không đăng ký sử dụng với cơ quan thuế; sử dụng hóa đơn điện tử chưa có mã của cơ quan thuế [Document 1][Document 2][Document 5].",
+        "contexts": [
+          "Sử dụng không hợp pháp hóa đơn, chứng từ là việc sử dụng hóa đơn, chứng từ tẩy xóa, sửa chữa không đúng quy định; sử dụng hóa đơn, chứng từ khống (hoá đơn, chứng từ đã ghi các chỉ tiêu, nội dung nghiệp vụ kinh tế nhưng việc mua bán hàng hoá, dịch vụ không có thật một phần hoặc toàn bộ); sử dụng hóa đơn phản ánh không đúng giá trị thực tế phát sinh hoặc lập hóa đơn khống, lập hóa đơn giả; sử dụng hóa đơn có sự chênh lệch về giá trị hàng hóa, dịch vụ hoặc sai lệch các tiêu thức bắt buộc giữa",
+          ". Sử dụng hóa đơn, chứng từ không hợp pháp là việc sử dụng hóa đơn, chứng từ giả; sử dụng hóa đơn, chứng từ chưa có giá trị sử dụng, hết giá trị sử dụng; sử dụng hóa đơn bị ngừng sử dụng trong thời gian bị cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn, trừ trường hợp được phép sử dụng theo thông báo của cơ quan thuế; sử dụng hóa đơn điện tử không đăng ký sử dụng với cơ quan thuế; sử dụng hóa đơn điện tử chưa có mã của cơ quan thuế đối với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan",
+          "đơn) để hợp thức hóa hàng hóa, dịch vụ mua vào hoặc hàng hóa, dịch vụ bán ra; sử dụng hóa đơn, chứng từ mà cơ quan thuế hoặc cơ quan công an hoặc các cơ quan chức năng khác đã kết luận là sử dụng không hợp pháp hóa đơn, chứng từ.",
+          "[![Trường hợp nào không phải sử dụng hóa đơn điện tử?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/7/16/hoa-don-1784169114283715727868-17-0-423-650-crop-17841691299471072179392.jpg)](https://xaydungchinhsach.chinhphu.vn/truong-hop-nao-khong-phai-su-dung-hoa-don-dien-tu-119260716095423868.htm)",
+          "* Tham khảo thêm\n#### [Trường hợp nào không phải sử dụng hóa đơn điện tử?](https://xaydungchinhsach.chinhphu.vn/truong-hop-nao-khong-phai-su-dung-hoa-don-dien-tu-119260716095423868.htm)"
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-20",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-17",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-22",
+          "news/article_09.md::chunk-45",
+          "news/article_09.md::chunk-44"
+        ],
+        "latency_seconds": 4.181,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.36769507359566644,
+          "context_recall": 1.0,
+          "context_precision": 0.9999999999666667
+        }
+      }
+    ]
+  },
+  "config_b_hybrid_rrf": {
+    "aggregates": {
+      "faithfulness": 0.7533,
+      "answer_relevancy": 0.3921,
+      "context_recall": 0.7667,
+      "context_precision": 0.7783,
+      "average": 0.6726
+    },
+    "average_latency_seconds": 2.334,
+    "rows": [
+      {
+        "question": "Cách nướng cá basa bằng nồi chiên không dầu?",
+        "expected_answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "expected_context": "Không có tài liệu về nấu ăn trong corpus thuế, quản lý thuế và hóa đơn điện tử.",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "contexts": [
+          "thể lựa chọn một trong hai cách sử dụng hóa đơn, chứng từ như sau:",
+          "Đối với cá nhân cho thuê bất động sản sẽ có cách tính thuế riêng. Theo đó, thuế GTGT phải nộp sẽ bằng doanh thu nhân với 5% nếu trên ngưỡng. Và thuế TNCN phải nộp bằng doanh thu trừ 500 triệu đồng nhân với 5%.\nTrường hợp có nhiều bất động sản cho thuê, được trừ 500 triệu đồng đối với một hoặc một số hợp đồng cho thuê do cá nhân tự lựa chọn và tổng mức được trừ cho tất cả các hợp đồng không quá 500 triệu đồng.",
+          "không hóa đơn, có được phép lập bảng kê mua hàng?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/3/12/img1913-1773309025142105269217-1773322358153-17733223586591720502165-0-0-967-1547-crop-177332288166065529676.jpg)](https://xaydungchinhsach.chinhphu.vn/ho-kinh-doanh-mua-hang-tu-ca-nhan-kinh-doanh-co-doanh-thu-duoi-500-trieu-dong-nam-khong-hoa-don-co-duoc-phep-lap-bang-ke-mua-hang-119260312204259799.htm)",
+          "đ) Sử dụng chứng từ, tài liệu không phản ánh đúng bản chất giao dịch hoặc giá trị giao dịch thực tế để xác định sai số tiền thuế phải nộp, số tiền thuế được miễn, số tiền thuế được giảm, số tiền thuế được hoàn, số tiền thuế không phải nộp;\ne) Khai sai với thực tế hàng hóa xuất khẩu, nhập khẩu mà cá nhân, tổ chức vi phạm không tự nguyện khắc phục hậu quả bằng cách nộp đủ số tiền thuế phải nộp theo quy định;\ng) Cố ý không kê khai hoặc khai sai về thuế đối với hàng hóa xuất khẩu, nhập khẩu;",
+          "* Tham khảo thêm\n#### [Giảm thuế nhập khẩu một số mặt hàng xăng dầu về 0% đến 30/6/2026](https://xaydungchinhsach.chinhphu.vn/giam-thue-nhap-khau-mot-so-mat-hang-xang-dau-ve-0-den-30-6-2026-119260430163854399.htm)"
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-69",
+          "news/article_07.md::chunk-21",
+          "news/article_06.md::chunk-34",
+          "news/article_08.md::chunk-28",
+          "news/article_04.md::chunk-37"
+        ],
+        "latency_seconds": 1.821,
+        "metrics": {
+          "faithfulness": 0.0,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.0
+        }
+      },
+      {
+        "question": "Doanh thu 500 triệu đồng một năm có phải nộp thuế thu nhập cá nhân không?",
+        "expected_answer": "Không. Cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế TNCN theo corpus.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 4 khoản 1: doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế TNCN.",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "contexts": [
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;",
+          ". Trường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng đang áp dụng phương pháp tính thuế thu nhập cá nhân theo thuế suất nhân (x) doanh thu tính thuế, nếu hết năm xác định doanh thu thực tế năm trên 03 tỷ đồng thì từ năm tiếp theo phải chuyển sang áp dụng phương pháp tính thuế thu nhập cá nhân theo thu nhập tính thuế nhân (x) thuế suất.",
+          "Trường hợp hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng thì khai và nộp thuế giá trị gia tăng, cụ thể: Trường hợp có doanh thu năm từ 50 tỷ đồng trở xuống thì thực hiện khai thuế, nộp thuế giá trị gia tăng theo quý. Trường hợp có doanh thu năm trên 50 tỷ đồng, thực hiện khai thuế, nộp thuế giá trị gia tăng theo tháng. Khai thuế, nộp thuế thu nhập cá nhân: Hộ kinh doanh, cá nhân sẽ lựa chọn nộp thuế một trong hai phương pháp ở trên.",
+          "Đối với cá nhân cho thuê bất động sản sẽ có cách tính thuế riêng. Theo đó, thuế GTGT phải nộp sẽ bằng doanh thu nhân với 5% nếu trên ngưỡng. Và thuế TNCN phải nộp bằng doanh thu trừ 500 triệu đồng nhân với 5%.\nTrường hợp có nhiều bất động sản cho thuê, được trừ 500 triệu đồng đối với một hoặc một số hợp đồng cho thuê do cá nhân tự lựa chọn và tổng mức được trừ cho tất cả các hợp đồng không quá 500 triệu đồng.",
+          "[![Hướng dẫn khai thuế, nộp thuế với hộ, cá nhân kinh doanh có doanh thu trên 500 triệu/ năm](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/3/9/khai-thue-1773041606294934149371-56-0-1306-2000-crop-1773041623261247280387.jpg)](https://xaydungchinhsach.chinhphu.vn/huong-dan-khai-thue-nop-thue-voi-ho-ca-nhan-kinh-doanh-co-doanh-thu-tren-500-trieu--nam-11926030914361859.htm)\n  * Tham khảo thêm"
+        ],
+        "source_ids": [
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-23",
+          "news/article_07.md::chunk-26",
+          "news/article_07.md::chunk-21",
+          "news/article_07.md::chunk-44"
+        ],
+        "latency_seconds": 1.475,
+        "metrics": {
+          "faithfulness": 0.0,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.999999999975
+        }
+      },
+      {
+        "question": "Doanh thu nào được dùng để xác định thuế TNCN của hộ kinh doanh?",
+        "expected_answer": "Là toàn bộ tiền bán hàng, gia công và cung ứng dịch vụ cùng các khoản được hưởng; không phân biệt đã thu tiền hay chưa, trừ chiết khấu thương mại, giảm giá hàng bán và hàng bị trả lại.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 5 khoản 1 về doanh thu để xác định thuế TNCN.",
+        "answer": "Doanh thu được dùng để xác định thuế TNCN của hộ kinh doanh là doanh thu tính thuế, tức là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế, đối với hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng nếu lựa chọn phương pháp thuế suất nhân với doanh thu tính thuế [Document 3].",
+        "contexts": [
+          "## Thuế suất thuế TNCN:\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 2.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b2-177553202117231854933.jpg)\nRiêng hộ kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng lựa chọn nộp thuế TNCN trên doanh thu thì căn cứ ngành nghề kinh doanh thuế suất thuế TNCN được xác định như sau:\n![Thuế suất đối với các hoạt động kinh doanh",
+          "[![Doanh thu để xác định thuế thu nhập cá nhân của hộ kinh doanh là gì?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/4/7/doanhthu-17755301859781156456391-29-0-581-883-crop-17755301898831741509029.jpg)](https://xaydungchinhsach.chinhphu.vn/doanh-thu-de-xac-dinh-thue-thu-nhap-ca-nhan-cuaho-kinh-doanh-la-gi-11926040709525945.htm)\n  * Tham khảo thêm",
+          "STT\n\nChỉ tiêu\n\nMã chỉ tiêu\n\nThuế GTGT\n\nThuế TNCN\n\nSố tiền người nộp thuế trực tiếp nộp vào NSNN\n\nSố tiền do tổ chức khấu trừ, nộp thay\n\nSố thuế phải nộp thêm\n\nSố thuế nộp thừa\n\nDoanh thu trong năm\n\nSố thuế phải nộp\n\nDoanh thu\n\nDoanh thu được trừ để xác định doanh thu tính thuế\n\nSố thuế phải nộp\n\nGTGT\n\nTNCN\n\nGTGT\n\nTNCN\n\nGTGT\n\nTNCN\n\nGTGT\n\nTNCN\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(11)\n\n(12)\n\n(13)\n\n(14)\n\n1",
+          "□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế\n\n□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm\n\n[01] Kỳ tính thuế:\n\n\t[01a] Năm………",
+          "i) Phương pháp thuế suất nhân với doanh thu tính thuế: Áp dụng đối với hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng nếu lựa chọn phương pháp này. Như vậy, thuế TNCN phải nộp sẽ bằng doanh thu tính thuế (tức là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế) nhân với thuế suất thuế TNCN."
+        ],
+        "source_ids": [
+          "news/article_06.md::chunk-13",
+          "news/article_06.md::chunk-17",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-56",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-53",
+          "news/article_07.md::chunk-19"
+        ],
+        "latency_seconds": 2.356,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.4577981232355451,
+          "context_recall": 1.0,
+          "context_precision": 0.699999999965
+        }
+      },
+      {
+        "question": "Hóa đơn điện tử có mã của cơ quan thuế là gì?",
+        "expected_answer": "Là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua.",
+        "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 1 định nghĩa hóa đơn điện tử có mã của cơ quan thuế.",
+        "answer": "Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua. Mã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dịch là một dãy số duy nhất do hệ thống của cơ quan thuế tạo ra và một chuỗi ký tự được cơ quan thuế mã hóa dựa trên thông tin của người bán lập trên hóa đơn điện tử [Document 1].",
+        "contexts": [
+          "1. Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn điện tử được cơ quan thuế cấp mã trước khi người bán gửi cho người mua.\n\nMã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dịch là một dãy số duy nhất do hệ thống của cơ quan thuế tạo ra và một chuỗi ký tự được cơ quan thuế mã hóa dựa trên thông tin của người bán lập trên hóa đơn điện tử.",
+          "2. Hóa đơn điện tử không có mã của cơ quan thuế là hóa đơn điện tử do tổ chức bán hàng hóa, cung cấp dịch vụ gửi cho người mua không có mã của cơ quan thuế.",
+          "3. Hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu điện tử với cơ quan thuế (sau đây gọi là hóa đơn điện tử từ máy tính tiền) là hóa đơn điện tử có mã của cơ quan thuế hoặc hoá đơn điện tử không có mã của cơ quan thuế hoặc dữ liệu điện tử để người mua có thể truy xuất, kê khai thông tin hóa đơn điện tử khởi tạo từ máy tính tiền do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập từ hệ thống tính tiền, dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn dữ liệu.",
+          "Điều 15. Trách nhiệm của người bán hàng hóa, cung cấp dịch vụ sử dụng hóa đơn điện tử có mã của cơ quan thuế\n\n1. Quản lý tên và mật khẩu của các tài khoản đã được cơ quan thuế cấp.\n\n2. Tạo lập hóa đơn điện tử để gửi đến cơ quan thuế cấp mã và chịu trách nhiệm trước pháp luật về tính hợp pháp, chính xác của hóa đơn điện tử.",
+          "1. Lập hóa đơn điện tử có mã của cơ quan thuế\n\na) Tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng quy định tại Điều 6 Nghị định này truy cập Hệ thống thông tin quản lý thuế để thực hiện: lập hóa đơn bán hàng hóa, cung cấp dịch vụ; ký số trên các hóa đơn đã lập và gửi hóa đơn để cơ quan thuế cấp mã;"
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-11",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-12",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-13",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-178",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-165"
+        ],
+        "latency_seconds": 1.803,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.45387413032347773,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        }
+      },
+      {
+        "question": "Hóa đơn điện tử khởi tạo từ máy tính tiền là gì?",
+        "expected_answer": "Là hóa đơn hoặc dữ liệu điện tử do hệ thống tính tiền lập, cho phép người mua truy xuất thông tin và dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn.",
+        "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 3 về hóa đơn điện tử từ máy tính tiền.",
+        "answer": "Hóa đơn điện tử khởi tạo từ máy tính tiền là hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử không có mã của cơ quan thuế, được lập từ hệ thống tính tiền. Dữ liệu của hóa đơn này được chuyển đến cơ quan thuế theo định dạng chuẩn dữ liệu, cho phép người mua có thể truy xuất và kê khai thông tin [Document 1].",
+        "contexts": [
+          "3. Hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu điện tử với cơ quan thuế (sau đây gọi là hóa đơn điện tử từ máy tính tiền) là hóa đơn điện tử có mã của cơ quan thuế hoặc hoá đơn điện tử không có mã của cơ quan thuế hoặc dữ liệu điện tử để người mua có thể truy xuất, kê khai thông tin hóa đơn điện tử khởi tạo từ máy tính tiền do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập từ hệ thống tính tiền, dữ liệu được chuyển đến cơ quan thuế theo định dạng chuẩn dữ liệu.",
+          "\"cá nhân kinh doanh\") [nâng ngưỡng doanh thu](https://xaydungchinhsach.chinhphu.vn/nang-nguong-doanh-thu.html \"nâng ngưỡng doanh thu\") [hóa đơn](https://xaydungchinhsach.chinhphu.vn/hoa-don.html \"hóa đơn\") [hóa đơn điện tử](https://xaydungchinhsach.chinhphu.vn/hoa-don-dien-tu.html \"hóa đơn điện tử\") [hóa đơn điện tử khởi tạo từ máy tính tiền](https://xaydungchinhsach.chinhphu.vn/hoa-don-dien-tu-khoi-tao-tu-may-tinh-tien.html \"hóa đơn điện tử khởi tạo từ máy tính tiền\") [thuế thu nhập doanh",
+          "8. Bộ Tài chính hướng dẫn mẫu hiển thị các loại hóa đơn để các đối tượng nêu tại Điều 2 Nghị định này tham khảo trong quá trình thực hiện.\n\n9. Hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế đảm bảo nguyên tắc sau:\n\na) Nhận biết được hóa đơn in từ máy tính tiền kết nối dữ liệu điện tử với cơ quan thuế;\n\nb) Không bắt buộc có chữ ký số;",
+          "nhân khác theo quy định về Hệ thống ngành kinh tế Việt Nam) sử dụng hóa đơn điện tử từ máy tính tiền",
+          "4. Máy tính tiền là hệ thống tính tiền bao gồm một thiết bị điện tử đồng bộ hoặc một hệ thống gồm nhiều thiết bị điện tử được kết hợp với nhau bằng giải pháp công nghệ thông tin có chức năng chung như: tính tiền, lưu trữ các giao dịch bán hàng, số liệu bán hàng.\n\n5. Hóa đơn, chứng từ hợp pháp là hóa đơn, chứng từ đảm bảo đúng về hình thức và nội dung theo quy định tại Nghị định này."
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-13",
+          "news/article_03.md::chunk-69",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-104",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-50",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-14"
+        ],
+        "latency_seconds": 3.381,
+        "metrics": {
+          "faithfulness": 0.8,
+          "answer_relevancy": 0.3723803508321753,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        }
+      },
+      {
+        "question": "Hồ sơ khai thuế của hộ kinh doanh nộp TNCN theo phương pháp thuế suất nhân doanh thu là gì?",
+        "expected_answer": "Hồ sơ gồm Tờ khai theo Mẫu số 01/CNKD cho thuế GTGT, thuế TNCN và các loại thuế khác.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm b: Tờ khai Mẫu số 01/CNKD.",
+        "answer": "Hồ sơ khai thuế của hộ kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân với doanh thu tính thuế là Tờ khai thuế theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này [Document 1].",
+        "contexts": [
+          "Điều 5. Hồ sơ đề nghị hoàn thuế nộp thừa\n\n1. Hồ sơ đề nghị hoàn thuế nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế là Tờ khai thuế theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này.",
+          "b) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD ban hành kèm theo Thông tư này.  \n\nc) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất",
+          "i) Phương pháp thuế suất nhân với doanh thu tính thuế: Áp dụng đối với hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng nếu lựa chọn phương pháp này. Như vậy, thuế TNCN phải nộp sẽ bằng doanh thu tính thuế (tức là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế) nhân với thuế suất thuế TNCN.",
+          "2. Hồ sơ đề nghị hoàn thuế nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất là Tờ khai thuế theo Mẫu số 02/QTT-TNCN-CNKD ban hành kèm theo Thông tư này.\n\nĐiều 6. Tiếp nhận, phân loại, giải quyết hồ sơ hoàn thuế nộp thừa\n\n1. Cơ quan thuế tiếp nhận, phân loại, giải quyết hồ sơ hoàn thuế nộp thừa của hộ kinh doanh, cá nhân kinh doanh theo quy định của pháp luật về quản lý thuế.",
+          "## Thuế suất thuế TNCN:\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 2.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b2-177553202117231854933.jpg)\nRiêng hộ kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng lựa chọn nộp thuế TNCN trên doanh thu thì căn cứ ngành nghề kinh doanh thuế suất thuế TNCN được xác định như sau:\n![Thuế suất đối với các hoạt động kinh doanh"
+        ],
+        "source_ids": [
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-16",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-7",
+          "news/article_07.md::chunk-19",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-17",
+          "news/article_06.md::chunk-13"
+        ],
+        "latency_seconds": 2.833,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.44008183398105605,
+          "context_recall": 1.0,
+          "context_precision": 0.49999999995
+        }
+      },
+      {
+        "question": "Hồ sơ đăng ký thành lập hộ kinh doanh mới tại cơ quan đăng ký kinh doanh gồm những gì?",
+        "expected_answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "expected_context": "Corpus chỉ có chính sách thuế, quản lý thuế và hóa đơn điện tử; không có thủ tục đăng ký thành lập hộ kinh doanh.",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "contexts": [
+          "nghiệp và phù hợp với đăng ký kinh doanh, đăng ký thuế của doanh nghiệp;",
+          "* Tham khảo thêm\n#### [Có bắt buộc lập tài khoản hộ kinh doanh không?](https://xaydungchinhsach.chinhphu.vn/co-bat-buoc-lap-tai-khoan-ho-kinh-doanh-khong-119260406094853695.htm)\n[![Có bắt buộc lập tài khoản hộ kinh doanh không?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/4/6/tai-khoan-ho-kinh-donh-17754435668102032612058-0-0-446-714-crop-17754435739681883384258.jpg)](https://xaydungchinhsach.chinhphu.vn/co-bat-buoc-lap-tai-khoan-ho-kinh-doanh-khong-119260406094853695.htm)",
+          "b) Hộ kinh doanh, cá nhân kinh doanh bao gồm cả kinh doanh thương mại điện tử có nhiều địa điểm kinh doanh (cửa hàng) hoạt động trên cùng địa bàn một tỉnh, thành phố hoặc khác tỉnh, thành phố, thực hiện khai thuế tổng hợp chung cho các địa điểm kinh doanh trên 01 hồ sơ khai thuế để nộp cho cơ quan thuế quản lý trực tiếp trụ sở của hộ kinh doanh, cá nhân kinh doanh được xác định là địa điểm ghi trên giấy chứng nhận đăng ký kinh doanh đối với hộ kinh doanh hoặc trên tờ khai đăng ký thuế đối với",
+          "Mẫu số: 01/TB-ĐĐKD\n\n(Kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính)\n\n                                                  \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do Hạnh phúc\n\nTHÔNG BÁO\n\nVề việc thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động \n\nđối với địa điểm kinh doanh\n\nKính gửi: (Cơ quan thuế quản lý trực tiếp NNT)……………\n\n\t1. Người nộp thuế: \t\n\n\t2. Mã số thuế:\t\n\n\t\t3. Thông tin đại lý thuế (nếu có): \n\n\t\t3a. Tên:\t\n\n\t\t3b. Mã số thuế:",
+          "a) Trường hợp người mua là cơ sở kinh doanh (tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh) có mã số thuế thì tên, địa chỉ, mã số thuế của người mua thể hiện trên hóa đơn phải ghi theo đúng tại giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký hoạt động chi nhánh, giấy chứng nhận đăng ký hộ kinh doanh, giấy chứng nhận đăng ký thuế, thông báo mã số thuế, giấy chứng nhận đăng ký đầu tư, giấy chứng nhận đăng ký hợp tác xã; trường hợp người mua cung cấp mã số đơn vị có quan hệ"
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-306",
+          "news/article_06.md::chunk-18",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-55",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-34",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-303"
+        ],
+        "latency_seconds": 1.384,
+        "metrics": {
+          "faithfulness": 0.0,
+          "answer_relevancy": 0.0,
+          "context_recall": 0.0,
+          "context_precision": 0.0
+        }
+      },
+      {
+        "question": "Hộ kinh doanh có doanh thu 450 triệu đồng một năm có phải nộp thuế GTGT không?",
+        "expected_answer": "Không. Theo corpus, hộ kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống thuộc đối tượng không chịu thuế GTGT.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 3 khoản 1: doanh thu năm từ 500 triệu đồng trở xuống không chịu thuế GTGT.",
+        "answer": "Hộ kinh doanh có doanh thu 450 triệu đồng một năm không phải nộp thuế giá trị gia tăng (GTGT) vì doanh thu này nằm dưới ngưỡng 500 triệu đồng. [Document 1]",
+        "contexts": [
+          "Trường hợp hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng thì khai và nộp thuế giá trị gia tăng, cụ thể: Trường hợp có doanh thu năm từ 50 tỷ đồng trở xuống thì thực hiện khai thuế, nộp thuế giá trị gia tăng theo quý. Trường hợp có doanh thu năm trên 50 tỷ đồng, thực hiện khai thuế, nộp thuế giá trị gia tăng theo tháng. Khai thuế, nộp thuế thu nhập cá nhân: Hộ kinh doanh, cá nhân sẽ lựa chọn nộp thuế một trong hai phương pháp ở trên.",
+          "Đối với cá nhân cho thuê bất động sản sẽ có cách tính thuế riêng. Theo đó, thuế GTGT phải nộp sẽ bằng doanh thu nhân với 5% nếu trên ngưỡng. Và thuế TNCN phải nộp bằng doanh thu trừ 500 triệu đồng nhân với 5%.\nTrường hợp có nhiều bất động sản cho thuê, được trừ 500 triệu đồng đối với một hoặc một số hợp đồng cho thuê do cá nhân tự lựa chọn và tổng mức được trừ cho tất cả các hợp đồng không quá 500 triệu đồng.",
+          "Tỷ lệ tính thuế giá trị gia tăng (GTGT): Đối với hộ kinh doanh có doanh thu trên 500 triệu đồng/năm, thuế GTGT được tính theo tỷ lệ % trên doanh thu. Căn cứ vào ngành nghề kinh doanh tỷ lệ % tính thuế GTGT được xác định như sau:\nThuế suất thuế thu nhập cá nhân (TNCN):\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 1.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b1-17755320211691394045548.jpg)\n## Thuế suất thuế TNCN:",
+          "□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế\n\n□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm\n\n[01] Kỳ tính thuế:\n\n\t[01a] Năm………",
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;"
+        ],
+        "source_ids": [
+          "news/article_07.md::chunk-26",
+          "news/article_07.md::chunk-21",
+          "news/article_06.md::chunk-12",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-53",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43"
+        ],
+        "latency_seconds": 2.588,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8590069120225552,
+          "context_recall": 0.5,
+          "context_precision": 0.99999999998
+        }
+      },
+      {
+        "question": "Hộ kinh doanh doanh thu trên 500 triệu đồng tính thuế GTGT theo phương pháp nào?",
+        "expected_answer": "Thuộc đối tượng chịu thuế GTGT và áp dụng phương pháp tính trực tiếp trên doanh thu theo tỷ lệ phần trăm.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 3 khoản 2: doanh thu trên 500 triệu đồng chịu thuế GTGT, tính trực tiếp theo doanh thu bằng tỷ lệ phần trăm.",
+        "answer": "Hộ kinh doanh có doanh thu trên 500 triệu đồng/năm sẽ tính thuế giá trị gia tăng (GTGT) theo tỷ lệ % trên doanh thu, căn cứ vào ngành nghề kinh doanh [Document 1].",
+        "contexts": [
+          "Tỷ lệ tính thuế giá trị gia tăng (GTGT): Đối với hộ kinh doanh có doanh thu trên 500 triệu đồng/năm, thuế GTGT được tính theo tỷ lệ % trên doanh thu. Căn cứ vào ngành nghề kinh doanh tỷ lệ % tính thuế GTGT được xác định như sau:\nThuế suất thuế thu nhập cá nhân (TNCN):\n![Thuế suất đối với các hoạt động kinh doanh\ncủa hộ kinh doanh- Ảnh 1.](https://xdcs.cdnchinhphu.vn/thumb_w/640/446259493575335936/2026/4/7/b1-17755320211691394045548.jpg)\n## Thuế suất thuế TNCN:",
+          ". Trường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng đang áp dụng phương pháp tính thuế thu nhập cá nhân theo thuế suất nhân (x) doanh thu tính thuế, nếu hết năm xác định doanh thu thực tế năm trên 03 tỷ đồng thì từ năm tiếp theo phải chuyển sang áp dụng phương pháp tính thuế thu nhập cá nhân theo thu nhập tính thuế nhân (x) thuế suất.",
+          "d) Trường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu trên 03 tỷ đồng hoặc có doanh thu năm trên 500 triệu đồng đến 03 tỷ đồng đang áp dụng phương pháp tính thuế thu nhập cá nhân theo thu nhập tính thuế nhân (x) thuế suất thì thực hiện ổn định phương pháp tính thuế trong 02 năm liên tục kể từ năm đầu tiên áp dụng",
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;",
+          "i) Phương pháp thuế suất nhân với doanh thu tính thuế: Áp dụng đối với hộ, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến dưới 3 tỷ đồng nếu lựa chọn phương pháp này. Như vậy, thuế TNCN phải nộp sẽ bằng doanh thu tính thuế (tức là doanh thu trừ 500 triệu đồng - ngưỡng không chịu thuế) nhân với thuế suất thuế TNCN."
+        ],
+        "source_ids": [
+          "news/article_06.md::chunk-12",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-23",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-22",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43",
+          "news/article_07.md::chunk-19"
+        ],
+        "latency_seconds": 2.532,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.5754066383220995,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        }
+      },
+      {
+        "question": "Hộ kinh doanh thuộc diện không chịu thuế GTGT và không phải nộp thuế TNCN dùng mẫu nào để thông báo doanh thu?",
+        "expected_answer": "Thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm a: Mẫu số 01/TKN-CNKD.",
+        "answer": "Hộ kinh doanh thuộc diện không chịu thuế GTGT và không phải nộp thuế TNCN dùng mẫu số 01/TKN-CNKD để thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo quy định [Document 1].",
+        "contexts": [
+          "Điều 4. Hồ sơ thông báo doanh thu, kê khai thuế \n\n1. Hồ sơ thông báo doanh thu, kê khai thuế đối với hộ kinh doanh, cá nhân kinh doanh\n\na) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này.",
+          "Trường hợp HKD, CNKD thuộc đối tượng nộp thuế TNCN theo phương pháp thu nhập tính thuế nhân (x) thuế suất thì việc khai, nộp thuế GTGT và các loại thuế khác theo tháng, tạm nộp thuế TNCN theo tháng (nếu doanh thu năm trên 50 tỷ đồng), khai, nộp thuế GTGT và các loại thuế khác, tạm nộp thuế TNCN quý (nếu doanh thu năm từ 50 tỷ đồng trở xuống).",
+          "□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên doanh thu tính thuế \n\n□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên thu nhập tính thuế \n\n□ Hộ kinh doanh, cá nhân kinh doanh chỉ có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác không có chức năng đặt hàng trực tuyến và chức năng thanh toán\n\n□ Hộ kinh doanh, cá nhân kinh doanh khai các loại thuế khác (thuế TTĐB, thuế tài nguyên, thuế/phí bảo vệ môi trường)",
+          "STT\n\nChỉ tiêu\n\nMã chỉ tiêu\n\n\tSố tiền\n\nI\n\nKhai thuế thay cá nhân hợp tác kinh doanh\n\n[06]\n\n1\n\nTổng doanh thu phát sinh trong kỳ\n\n[07]\n\n2\n\nTổng số thuế TNCN phải nộp\n\n[08]\n\nII\n\nKhai thuế thay cá nhân cho thuê bất động sản \n\n[09]\n\n1\n\nTổng doanh thu phát sinh trong kỳ\n\n[10]\n\n2\n\nTổng số thuế GTGT phải nộp\n\n[11]\n\n3\n\nTổng số thuế TNCN phải nộp\n\n[12]\n\n(TNCN: Thu nhập cá nhân; GTGT: Giá trị gia tăng)",
+          "(Ký, ghi rõ họ tên/ Ký điện tử)\n\nGhi chú:\n\n- Đối với trường hợp hộ kinh doanh, cá nhân kinh doanh thông báo doanh thu năm từ 500 triệu đồng trở xuống thì chỉ thực hiện thông báo doanh thu; không thực hiện khai số thuế GTGT, thuế TNCN phải nộp.\n\n- Chỉ tiêu [3.1], [3.2]…tại khoản III, mục C: bao gồm khoáng sản và đất đá bóc, đất đá thải (nếu có)."
+        ],
+        "source_ids": [
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-6",
+          "news/article_02.md::chunk-19",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-69",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-102",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-67"
+        ],
+        "latency_seconds": 2.447,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.3785480541303984,
+          "context_recall": 1.0,
+          "context_precision": 0.8666666666377778
+        }
+      },
+      {
+        "question": "Hộ kinh doanh từng nộp thuế khoán năm 2025, doanh thu 500 triệu đồng trở xuống, thì năm 2026 cần làm gì?",
+        "expected_answer": "Theo điều khoản chuyển tiếp trong corpus, thực hiện thông báo doanh thu năm 2026 theo quy định về thông báo doanh thu, thay vì kê khai nộp thuế theo trường hợp doanh thu trên ngưỡng.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 17 khoản 4 điểm b kết hợp Điều 8; doanh thu từ 500 triệu đồng trở xuống thông báo doanh thu năm 2026.",
+        "answer": "Hộ kinh doanh từng nộp thuế theo phương pháp khoán trong năm 2025 và có doanh thu 500 triệu đồng trở xuống cần thực hiện thông báo doanh thu của năm 2026 theo quy định tại điểm a khoản 1 Điều 8 Nghị định này [Document 1].",
+        "contexts": [
+          "a) Hộ kinh doanh, cá nhân kinh doanh đã thực hiện nộp thuế theo phương pháp khoán hoặc phương pháp kê khai trong năm 2025 có mức doanh thu trên 500 triệu đồng thực hiện kê khai, nộp thuế của năm 2026 theo quy định tại Điều 10 Nghị định này;\n\nb) Hộ kinh doanh, cá nhân kinh doanh đã nộp thuế theo phương pháp khoán hoặc phương pháp kê khai trong năm 2025, có doanh thu từ 500 triệu đồng trở xuống thực hiện thông báo doanh thu của năm 2026 theo quy định tại điểm a khoản 1 Điều 8 Nghị định này.",
+          ". Đối với hộ kinh doanh, cá nhân kinh doanh trong năm 2025 nộp thuế theo phương pháp khoán hoặc phương pháp kê khai, có mức doanh thu từ 03 tỷ đồng trở lên hoặc từ năm 2026 lựa chọn nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) thuế suất thì hộ kinh doanh, cá nhân kinh doanh thực hiện xác định, ghi nhận giá trị hàng tồn kho, máy móc, thiết bị đang phục vụ hoạt động sản xuất, kinh doanh tại thời điểm ngày 31 tháng 12 năm 2025 để làm căn cứ xác định chi phí được trừ khi",
+          "3. Từ năm tiếp theo, hộ kinh doanh, cá nhân kinh doanh nếu có doanh thu thực tế phát sinh từ 500 triệu đồng trở xuống thực hiện thông báo doanh thu theo quy định tại Điều 8 Nghị định này; trường hợp có doanh thu thực tế phát sinh trên 500 triệu đồng thì thực hiện khai thuế theo quy định tại Điều 10 Nghị định này.\n\nĐiều 10. Khai thuế, nộp thuế giá trị gia tăng, thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng",
+          "Trường hợp hộ kinh doanh, cá nhân kinh doanh phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng. Số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp xác định theo quy định tại Điều 3, Điều 4 Nghị định này;",
+          "□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế\n\n□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm\n\n[01] Kỳ tính thuế:\n\n\t[01a] Năm………"
+        ],
+        "source_ids": [
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-127",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-143",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-78",
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-43",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-53"
+        ],
+        "latency_seconds": 2.356,
+        "metrics": {
+          "faithfulness": 0.5,
+          "answer_relevancy": 0.6208831737702031,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        }
+      },
+      {
+        "question": "Hộ kinh doanh đang hoạt động thuộc diện nộp TNCN theo thuế suất trên doanh thu phải gửi thông báo tài khoản hoặc ví điện tử trước ngày nào?",
+        "expected_answer": "Theo corpus, gửi Mẫu số 01/BK-STK chậm nhất ngày 20 tháng 4 năm 2026.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 4 khoản 1 điểm d: Mẫu 01/BK-STK chậm nhất ngày 20/04/2026.",
+        "answer": "Hộ kinh doanh đang hoạt động thuộc diện nộp TNCN theo thuế suất trên doanh thu phải gửi thông báo tài khoản hoặc ví điện tử chậm nhất là ngày 20 tháng 4 năm 2026 [Document 5].",
+        "contexts": [
+          "Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.\n\nHộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.",
+          "d) Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm b khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này chậm nhất là ngày 20 tháng 4 năm 2026.",
+          "□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên doanh thu tính thuế \n\n□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên thu nhập tính thuế \n\n□ Hộ kinh doanh, cá nhân kinh doanh chỉ có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác không có chức năng đặt hàng trực tuyến và chức năng thanh toán\n\n□ Hộ kinh doanh, cá nhân kinh doanh khai các loại thuế khác (thuế TTĐB, thuế tài nguyên, thuế/phí bảo vệ môi trường)",
+          "Số thuế TNCN tạm nộp bằng thuế suất nhân (x) doanh thu tính thuế của tháng, quý và khai quyết toán thuế TNCN theo năm, thời hạn nộp chậm nhất là ngày 31/3 của năm dương lịch tiếp theo.\n## **Tăng cường ứng dụng hóa đơn điện tử**\nNghị định 68/2026/NĐ-CP cũng quy định rõ về việc sử dụng hóa đơn điện tử. Theo đó, HKD, CNKD có doanh thu tính thuế giá trị gia tăng hằng năm từ 01 tỷ đồng trở lên phải áp dụng hóa đơn điện tử.",
+          "Hộ kinh doanh, cá nhân kinh doanh khi thay đổi thông tin số tài khoản/số hiệu ví điện tử thì thông báo cho cơ quan thuế theo quy định của pháp luật quản lý thuế. \n\n2. Hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân đối với trường hợp tổ chức, cá nhân khấu trừ khai thuế thay, nộp thuế thay"
+        ],
+        "source_ids": [
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-10",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-9",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-69",
+          "news/article_02.md::chunk-20",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-11"
+        ],
+        "latency_seconds": 2.468,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.4837538348232136,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999995
+        }
+      },
+      {
+        "question": "Khoản chi bao nhiêu trở lên cần chứng từ thanh toán không dùng tiền mặt để được trừ?",
+        "expected_answer": "Các khoản thanh toán từng lần từ 5 triệu đồng trở lên cần chứng từ thanh toán không dùng tiền mặt, cùng điều kiện có hóa đơn chứng từ hợp lệ.",
+        "expected_context": "nd68-2026-chinh-sach-thue-ho-kinh-doanh.md, Điều 6 khoản 1: khoản thanh toán từng lần từ 05 triệu đồng trở lên.",
+        "answer": "Khoản chi từ 05 triệu đồng trở lên cần chứng từ thanh toán không dùng tiền mặt để được trừ [Document 1].",
+        "contexts": [
+          "1. Các khoản chi được trừ là các khoản chi phí thực tế phát sinh liên quan đến hoạt động sản xuất, kinh doanh, có đủ hóa đơn, chứng từ theo quy định của pháp luật về hóa đơn, chứng từ, pháp luật về kế toán và chứng từ thanh toán không dùng tiền mặt đối với các khoản thanh toán từng lần có giá trị từ 05 triệu đồng trở lên theo pháp luật về thuế giá trị gia tăng, cụ thể như sau: \n\na) Chi phí nguyên liệu, vật liệu, nhiên liệu, năng lượng, hàng hóa sử dụng vào sản xuất, kinh doanh;",
+          "##  [ Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân ](https://www.vietnamplus.vn/hon-122-trieu-ty-dong-dang-nam-trong-tai-khoan-thanh-toan-ca-nhan-post1137973.vnp \"Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân \")\n23/09/2026 16:27\nTiền gửi thanh toán cá nhân đạt hơn 1,22 triệu tỷ đồng vào cuối quý 2/2026, tăng số tài khoản nhưng thấp hơn năm trước, phản ánh xu hướng thanh khoản ổn định.",
+          "[09a]\n\n1.2\n\nDoanh thu từ hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số đã được khấu trừ, nộp thay\n\n[09b]\n\n1.3\n\nDoanh thu từ hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số không có chức năng thanh toán trực tiếp \n\n[09c]\n\n2\n\nCác khoản chi được trừ [10]= [10a]+ [10b]+ [10c]+ [10d]+ [10đ]+ [10e]\n\n[10]\n\n2.1\n\nChi phí nguyên liệu, vật liệu, nhiên liệu, năng lượng, hàng hóa sử dụng vào sản xuất, kinh doanh.\n\n[10a]\n\n2.2",
+          "Điều 26. Phương thức lập chứng từ điện tử\n\n1. Chứng từ điện tử được lập trực tiếp trên Hệ thống thông tin quản lý thuế hoặc thông qua tổ chức cung cấp dịch vụ hoặc trên phần mềm chứng từ điện tử của đơn vị.\n\n2. Chứng từ được lập theo đúng quy định tại Điều 23 là chứng từ hợp pháp để thanh toán, hạch toán và quyết toán tài chính.\n\n\tTrường hợp không đúng quy định tại Điều 23 thì không có giá trị thanh toán và không được hạch toán, quyết toán tài chính.",
+          "[ ![Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân. \\(Ảnh: Vietnam+\\)](https://www.vietnamplus.vn/bo-ap-dung-thue-khoan-ho-kinh-doanh-buoc-vao-cuoc-choi-moi-post1042297.vnp) ](https://www.vietnamplus.vn/hon-122-trieu-ty-dong-dang-nam-trong-tai-khoan-thanh-toan-ca-nhan-post1137973.vnp \"Hơn 1,22 triệu tỷ đồng đang nằm trong tài khoản thanh toán cá nhân \")"
+        ],
+        "source_ids": [
+          "legal/nd68-2026-chinh-sach-thue-ho-kinh-doanh.md::chunk-33",
+          "news/article_01.md::chunk-58",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-89",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-230",
+          "news/article_01.md::chunk-57"
+        ],
+        "latency_seconds": 1.488,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.39578321856999554,
+          "context_recall": 1.0,
+          "context_precision": 0.9999999999
+        }
+      },
+      {
+        "question": "Muốn thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh thì dùng mẫu nào?",
+        "expected_answer": "Gửi thông báo tới cơ quan thuế quản lý trụ sở kinh doanh theo Mẫu số 01/TB-ĐĐKD.",
+        "expected_context": "tt18-2026-quan-ly-thue-ho-kinh-doanh.md, Điều 3 khoản 1: Mẫu số 01/TB-ĐĐKD.",
+        "answer": "Để thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh, cần sử dụng Mẫu số 01/TB-ĐĐKD [Document 2].",
+        "contexts": [
+          "3a. Tên:\t\n\n\t\t3b. Mã số thuế: \t\n\nThông báo về việc thành lập/thay đổi thông tin/tạm ngừng/khôi phục tạm ngừng kinh doanh trước thời hạn/chấm dứt hoạt động địa điểm kinh doanh như sau:\n\n□ Thành lập địa điểm kinh doanh       \n\n□ Thay đổi thông tin\n\n□ Tạm ngừng kinh doanh\n\n□ Khôi phục tạm ngừng kinh doanh trước thời hạn đã thông báo\n\n□ Chấm dứt hoạt động\n\n<1. Thành lập địa điểm kinh doanh>\n\nTên địa điểm kinh doanh\n\nHình thức kinh doanh thương mại điện tử \n\nNgày bắt đầu hoạt động",
+          "Điều 3. Thông báo địa điểm kinh doanh\n\n1. Hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư này.\n\n2. Cơ quan thuế gửi thông báo cho người nộp thuế biết theo Mẫu số 02/TB-ĐĐKD ban hành kèm theo Thông tư này.",
+          "STT\n\nKý hiệu\n\nNội dung\n\n1\n\nMẫu số: 01/TB-ĐĐKD\n\nThông báo về việc thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động đối với địa điểm kinh doanh\n\n2\n\nMẫu số: 02/TB-ĐĐKD\n\nThông báo về việc cập nhật thông tin <thành lập/thay đổi thông tin/tạm ngừng/chấm dứt hoạt động> đối với địa điểm kinh doanh\n\n3\n\nMẫu số: 01/TKN-CNKD\n\nThông báo doanh thu/Tờ khai thuế năm \n\n4\n\nMẫu số: 01/CNKD\n\nTờ khai thuế đối với hộ kinh doanh, cá nhân kinh doanh\n\n5\n\nMẫu số: 02/CNKD-TNCN-QTT",
+          "Mã Địa điểm kinh doanh\n\nTên địa điểm kinh doanh\n\nThời gian đã thông báo tạm ngừng kinh doanh\n\nTiếp tục kinh doanh trước thời hạn đã thông báo kể từ ngày\n\nTừ ngày tháng năm\n\nĐến ngày tháng năm\n\nNgày tháng năm\n\nLý do tiếp tục kinh doanh\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n...\n\n<5. Chấm dứt hoạt động>\n\nMã địa điểm kinh doanh\n\nTên địa điểm kinh doanh \n\nNgày tháng năm chấm dứt hoạt động\n\nLý do chấm dứt hoạt động\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n...",
+          "Tỉnh/ thành phố\n\nMã định danh địa điểm (nếu có)\n\nMã trang trại (nếu có đối với trường hợp hoạt động theo mô hình kinh tế trang trại)\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n...\n\n<3. Tạm ngừng kinh doanh>\n\nMã địa điểm kinh doanh\n\nTên địa điểm kinh doanh\n\nThông tin tạm ngừng kinh doanh\n\nTừ ngày tháng năm\n\nĐến ngày tháng năm\n\nLý do tạm ngừng\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n...\n\n<4. Khôi phục tạm ngừng kinh doanh trước thời hạn đã thông báo>\n\nMã Địa điểm kinh doanh\n\nTên địa điểm kinh doanh"
+        ],
+        "source_ids": [
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-35",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-5",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-31",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-46",
+          "legal/tt18-2026-quan-ly-thue-ho-kinh-doanh.md::chunk-45"
+        ],
+        "latency_seconds": 2.12,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.4767164510755621,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        }
+      },
+      {
+        "question": "Những trường hợp nào bị coi là sử dụng hóa đơn, chứng từ không hợp pháp?",
+        "expected_answer": "Bao gồm dùng hóa đơn giả, hóa đơn hết hoặc chưa có giá trị sử dụng, hóa đơn không đăng ký hoặc sử dụng không đúng quy định; corpus còn nêu các hành vi như tẩy xóa, lập khống và dùng hóa đơn của tổ chức cá nhân khác để hợp thức hóa.",
+        "expected_context": "nd254-2026-hoa-don-dien-tu.md, Điều 3 khoản 7 về sử dụng hóa đơn, chứng từ không hợp pháp.",
+        "answer": "Những trường hợp bị coi là sử dụng hóa đơn, chứng từ không hợp pháp bao gồm:\n\n1. Sử dụng hóa đơn, chứng từ tẩy xóa, sửa chữa không đúng quy định.\n2. Sử dụng hóa đơn, chứng từ khống (hóa đơn, chứng từ đã ghi các chỉ tiêu, nội dung nghiệp vụ kinh tế nhưng việc mua bán hàng hóa, dịch vụ không có thật một phần hoặc toàn bộ).\n3. Sử dụng hóa đơn phản ánh không đúng giá trị thực tế phát sinh hoặc lập hóa đơn khống, lập hóa đơn giả.\n4. Sử dụng hóa đơn có sự chênh lệch về giá trị hàng hóa, dịch vụ hoặc sai lệch các tiêu thức bắt buộc giữa các đơn.\n5. Sử dụng hóa đơn, chứng từ mà cơ quan thuế hoặc cơ quan công an hoặc các cơ quan chức năng khác đã kết luận là sử dụng không hợp pháp.\n6. Sử dụng hóa đơn, chứng từ giả; chưa có giá trị sử dụng, hết giá trị sử dụng; bị ngừng sử dụng trong thời gian bị cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn, trừ trường hợp được phép sử dụng theo thông báo của cơ quan thuế.\n7. Sử dụng hóa đơn điện tử không đăng ký sử dụng với cơ quan thuế.\n8. Sử dụng hóa đơn điện tử chưa có mã của cơ quan thuế đối với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan [Document 1][Document 2][Document 5].",
+        "contexts": [
+          "Sử dụng không hợp pháp hóa đơn, chứng từ là việc sử dụng hóa đơn, chứng từ tẩy xóa, sửa chữa không đúng quy định; sử dụng hóa đơn, chứng từ khống (hoá đơn, chứng từ đã ghi các chỉ tiêu, nội dung nghiệp vụ kinh tế nhưng việc mua bán hàng hoá, dịch vụ không có thật một phần hoặc toàn bộ); sử dụng hóa đơn phản ánh không đúng giá trị thực tế phát sinh hoặc lập hóa đơn khống, lập hóa đơn giả; sử dụng hóa đơn có sự chênh lệch về giá trị hàng hóa, dịch vụ hoặc sai lệch các tiêu thức bắt buộc giữa",
+          ". Sử dụng hóa đơn, chứng từ không hợp pháp là việc sử dụng hóa đơn, chứng từ giả; sử dụng hóa đơn, chứng từ chưa có giá trị sử dụng, hết giá trị sử dụng; sử dụng hóa đơn bị ngừng sử dụng trong thời gian bị cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn, trừ trường hợp được phép sử dụng theo thông báo của cơ quan thuế; sử dụng hóa đơn điện tử không đăng ký sử dụng với cơ quan thuế; sử dụng hóa đơn điện tử chưa có mã của cơ quan thuế đối với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan",
+          "đơn) để hợp thức hóa hàng hóa, dịch vụ mua vào hoặc hàng hóa, dịch vụ bán ra; sử dụng hóa đơn, chứng từ mà cơ quan thuế hoặc cơ quan công an hoặc các cơ quan chức năng khác đã kết luận là sử dụng không hợp pháp hóa đơn, chứng từ.",
+          "[![Trường hợp nào không phải sử dụng hóa đơn điện tử?](https://xdcs.cdnchinhphu.vn/thumb_w/300/446259493575335936/2026/7/16/hoa-don-1784169114283715727868-17-0-423-650-crop-17841691299471072179392.jpg)](https://xaydungchinhsach.chinhphu.vn/truong-hop-nao-khong-phai-su-dung-hoa-don-dien-tu-119260716095423868.htm)",
+          "* Tham khảo thêm\n#### [Trường hợp nào không phải sử dụng hóa đơn điện tử?](https://xaydungchinhsach.chinhphu.vn/truong-hop-nao-khong-phai-su-dung-hoa-don-dien-tu-119260716095423868.htm)"
+        ],
+        "source_ids": [
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-20",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-17",
+          "legal/nd254-2026-hoa-don-dien-tu.md::chunk-22",
+          "news/article_09.md::chunk-45",
+          "news/article_09.md::chunk-44"
+        ],
+        "latency_seconds": 3.958,
+        "metrics": {
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.36769507359566644,
+          "context_recall": 1.0,
+          "context_precision": 0.9999999999666667
+        }
+      }
+    ]
+  },
+  "dataset_size": 15
+}
